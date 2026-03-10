@@ -1,6 +1,9 @@
 class parent {
   test = "hello father";
 }
+class mother {
+  test = "hello mother";
+}
 class child extends parent {
   test = "hello child";
 }
