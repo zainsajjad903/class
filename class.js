@@ -13,6 +13,9 @@ class child extends mother {
 class child2 extends parent {
   test_1 = "hello child2";
 }
+class child3 extends chacha {
+  test_3 = "hello child3";
+}
 let obj = new child();
 console.log(obj.test_2);
 let obj2 = new child2();
