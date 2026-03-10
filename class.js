@@ -4,7 +4,7 @@ class parent {
 class mother {
   test = "hello mother";
 }
-class child extends parent {
+class child extends mother {
   test = "hello child";
 }
 class child2 extends parent {
@@ -12,3 +12,5 @@ class child2 extends parent {
 }
 let obj = new child();
 console.log(obj.test);
+let obj2 = new child2();
+console.log(obj2.test);
