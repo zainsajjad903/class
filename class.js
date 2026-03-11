@@ -12,7 +12,6 @@ class login {
         this.#Password == this.#password
       ) {
         document.writeln("access granted");
-        break;
       }
     }
 
