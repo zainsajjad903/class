@@ -5,7 +5,7 @@ class login {
   #Password;
 
   getlogin() {
-    this.i = 0;
+    this.i;
     for (this.i = 0; this.i < 3; this.i++) {
       if (
         this.#emailadress == this.#email &&
