@@ -1,24 +1,23 @@
-// class parent {
-//   test_1 = "hello father";
-// }
-// class mother {
-//   test_2 = "hello mother";
-// }
-// class chacha {
-//   test_3 = "hello chacha";
-// }
-// class child extends mother {
-//   test_2 = "hello child";
-// }
-// class child2 extends parent {
-//   test_1 = "hello child2";
-// }
-// class child3 extends chacha {
-//   test_3 = "hello child3";
-// }
-// let obj = new child();
-// console.log(obj.test_2);
-// let obj2 = new child2();
-// console.log(obj2.test_1);
-// let obj3 = new child3();
-// console.log(obj3.test_3);
+class login {
+  #i = 0;
+  #email = "zainsajjad.903@gmail.com";
+  #password = "123456";
+  emailadress;
+  Password;
+  getlogin() {
+    for (i = 0; i < 3; i++) {
+      //  #emailadress = prompt("enter emailadress");
+      //  #Password = prompt("enter password");
+      if (emailadress == email && Password == password) {
+        document.writeln("access granted");
+        break;
+      }
+
+      if (i == 2) {
+        document.writeln("Account Blocked");
+      }
+    }
+  }
+}
+let obj = new login();
+obj.login();
