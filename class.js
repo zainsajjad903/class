@@ -5,19 +5,17 @@ class login {
   #Password;
 
   getlogin() {
-    this.i;
-    for (this.i = 0; this.i < 3; this.i++) {
+    for (let attempts = 0; attempts < 3; attempts++) {
+      this.setlogin();
       if (
         this.#emailadress == this.#email &&
         this.#Password == this.#password
       ) {
         document.writeln("access granted");
+        return;
       }
     }
-
-    if (this.i == 2) {
-      document.writeln("Account Blocked");
-    }
+    document.writeln("Account Blocked");
   }
 
   setlogin() {
@@ -27,5 +25,4 @@ class login {
 }
 
 let obj = new login();
-obj.setlogin();
 obj.getlogin();
