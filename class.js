@@ -5,7 +5,7 @@ class login {
   #Password;
 
   getlogin() {
-    for (let attempts = 0; attempts < 3; attempts++) {
+    for (let i = 0; i < 3; i++) {
       this.setlogin();
       if (
         this.#emailadress == this.#email &&
