@@ -1,23 +1,32 @@
 class login {
-  #i = 0;
   #email = "zainsajjad.903@gmail.com";
   #password = "123456";
-  emailadress;
-  Password;
+  #emailadress;
+  #Password;
+
   getlogin() {
-    for (i = 0; i < 3; i++) {
-      //  #emailadress = prompt("enter emailadress");
-      //  #Password = prompt("enter password");
-      if (emailadress == email && Password == password) {
+    this.i = 0;
+    for (this.i = 0; this.i < 3; this.i++) {
+      if (
+        this.#emailadress == this.#email &&
+        this.#Password == this.#password
+      ) {
         document.writeln("access granted");
         break;
       }
+    }
 
-      if (i == 2) {
-        document.writeln("Account Blocked");
-      }
+    if (this.i == 2) {
+      document.writeln("Account Blocked");
     }
   }
+
+  setlogin() {
+    this.#emailadress = prompt("enter emailadress");
+    this.#Password = prompt("enter password");
+  }
 }
+
 let obj = new login();
-obj.login();
+obj.setlogin();
+obj.getlogin();
