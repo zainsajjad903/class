@@ -10,12 +10,4 @@ class login {
       if (
         this.#emailadress == this.#email &&
         this.#Password == this.#password
-      ) {
-        document.writeln("access granted");
-        return;
-      }
-    }
-    document.writeln("Account Blocked");
-  }
-
-  
+    
