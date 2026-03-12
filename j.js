@@ -23,6 +23,3 @@ class login {
     this.#Password = prompt("enter password");
   }
 }
-
-let obj = new login();
-obj.getlogin();
