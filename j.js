@@ -3,11 +3,3 @@ class login {
   #password = "123456";
   #emailadress;
   #Password;
-
-  getlogin() {
-    for (let i = 0; i < 3; i++) {
-      this.setlogin();
-      if (
-        this.#emailadress == this.#email &&
-        this.#Password == this.#password
-    
