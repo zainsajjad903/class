@@ -18,8 +18,4 @@ class login {
     document.writeln("Account Blocked");
   }
 
-  setlogin() {
-    this.#emailadress = prompt("enter emailadress");
-    this.#Password = prompt("enter password");
-  }
-}
+  
